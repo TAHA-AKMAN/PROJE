@@ -20,8 +20,8 @@
 			<div depth="5" class="hard front-side"> <div class="depth"></div> </div>
 			<div class="own-size"></div>
 			<div class="own-size even"></div>
-			<div class="hard fixed back-side p36"> <div class="depth"></div> </div>
-			<div class="hard p37"></div>
+			<div class="hard fixed back-side p35"> <div class="depth"></div> </div>
+			<div class="hard p36"></div>
 		</div>
 	</div>
 	<div id="slider-bar" class="turnjs-slider">
@@ -206,9 +206,9 @@ function loadApp() {
 					$('.sj-book .p2').removeClass('fixed');
 
 				if (page<book.turn('pages'))
-					$('.sj-book .p36').addClass('fixed');
+					$('.sj-book .p35').addClass('fixed');
 				else
-					$('.sj-book .p36').removeClass('fixed');
+					$('.sj-book .p35').removeClass('fixed');
 
 				Hash.go('page/'+page).update();
 					
